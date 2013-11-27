@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Search Mantis Ticket",
+    "author":"Matt Wakeman",
+    "description": "To use, type 'vf' then TAB to search directly for a Mantis ID",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "homepage_url": "http://www.business.vodafone.com",
+    "icons": {
+        "16": "16-favicon.png",
+        "128": "128-favicon.png"
+    },
+    "permissions": [
+        "tabs",
+        "https://bugtracker.businessproducts.vodafone.com/"
+    ],
+    "omnibox": {
+        "keyword": "vf"
+    },
+    "browser_action": {
+        "default_icon": "16-favicon.png", // optional
+        "default_title": "Launch Mantis" // optional; shown in tooltip
+    }
+}
