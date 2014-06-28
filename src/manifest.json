@@ -21,7 +21,7 @@
         "keyword": "vf"
     },
     "browser_action": {
-        "default_icon": "16-favicon.png", // optional
-        "default_title": "Launch Mantis" // optional; shown in tooltip
+        "default_icon": "16-favicon.png",
+        "default_title": "Launch Mantis"
     }
 }
